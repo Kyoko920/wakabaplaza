@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Photoshopわかばプラザ</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="「Photoshopわかばプラザ」のWebサイトです。">
+    <meta name="keywords" content="Photoshopわかばプラザ,写真,証明写真,フォトグッズ">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c0e831be90.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.menu-btn').click(function () {
+                $('.header-nav').toggleClass('open');
+            });
+            $('.header-nav a').click(function () {
+                $('.header-nav').toggleClass('open');
+            });
+        })
+    </script>
+    <!-- reset.css ress -->
+     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <h1 class="logo"><img src="./sozai/AI_画像.png" alt="わかばプラザ"></h1>
+            <nav class="header-nav">
+                <ul>
+                    <li>当店について</li>
+                    <li>サービス</li>
+                    <li>採用情報</li>
+                    <li>ご予約・お問い合わせ</li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="kv">
+            <p class="photo"><img src="./sozai/kv.jpg" alt=""></p>
+        </div>
+        <section class="blk">
+            <section id="about">
+                <div class="innner">
+                    <div class="item-blk">
+                        <div class="syokai">
+                            <h2>こんにちは。Photoshopわかばプラザです！</h2>
+                            <p class="lead">
+                                わかばプラザでは、スマホやデジカメで撮影した写真をプリントすることができます。<br>
+                                また、オリジナルグッズを作成することもでき、プレゼントにもぴったり！<br>
+                                是非、当店で思い出を形にしてみませんか？
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="menu">
+                <div class="inner">
+                    <h1>サービス内容</h1>
+                    <div class="wrap-blk">
+                        <div class="item-blk" id="syasin">
+                            <h2>写真プリント</h2>
+                            <p class="photo"><img src="./sozai/写真.png" alt="写真プリント"></p>
+
+
+                            <p class="text">スマホやデジカメで撮影した写真を<br>
+                                高画質でプリントできます。</p>
+                        </div>
+
+                        <div class="item-blk" id="syoumei">
+                            <h2>証明写真</h2>
+                            <p class="photo"><img src="./sozai/証明写真.png" alt="証明写真"></p>
+
+
+
+                            <p class="text">履歴書やパスポートなど<br>
+                                様々な用途に<br>
+                                合わせて撮影します！</p>
+
+
+                        </div>
+
+                        <div class="item-blk" id="original">
+                            <h2>オリジナルフォトグッズ</h2>
+                            <p class="photo"><img src="./sozai/シャツ.png" alt="オリジナルグッズ"></p>
+
+
+                            <p class="text">スマホやデジカメで撮影した写真で<br>
+                                マグカップやTシャツを<br>
+                                作成できます！</p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="saiyo">
+                <div class="inner">
+                    <h1>採用情報</h1>
+                    <div class="item-blk">
+                        <div class="saiyo_annnai">
+                            <h2>私たちと一緒に働きませんか？</h2>
+                            <p class="lead">
+                                わかばプラザでは、一緒に働く仲間を募集しています！
+                            </p>
+                         <p class="btn"><a href="#">詳細はこちら</a>
+                        </p>
+                        </div>
+                        <p class="photo"><img src="./sozai/店員.PNG" alt="採用情報"></p>
+                        
+                    </div>
+
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap-blk">
+            <h1>ご予約・お問い合わせはこちら</h1>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i>東京都〇〇市△△町３丁目５番地１９号</li>
+                <li><a href="tel:09012345678"><i class="fas fa-phone"></i>090-1234-5678</a></li>
+
+            </ul>
+        </div>
+
+        <p class="copyright"> © 2024. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Sans JP", system-ui;
+  font-size: 1.6rem;
+  line-height: 2.1;
+  color: #3b3b3b;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+.inner {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background: white;
+  box-shadow: 0 6px 3px -3px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+  font-size: 1.5rem;
+  color: #2e4551;
+  margin: 0 0 0 50px;
+  letter-spacing: 0.3em;
+}
+
+header .logo {
+  width: 100px;
+  transform: translateY(10px);
+  
+}
+header ul {
+  display: flex;
+  
+}
+
+header li {
+  width: 200px;
+}
+header li:hover {
+  color: rgb(0, 174, 255);
+  font-weight: 600;
+}
+header .inner {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  position: relative;
+  background: #fff;
+  margin-top: 640px;
+}
+section .inner{
+  width: 810px;
+  margin: 0 auto;
+}
+#kv {
+  width: 100%;
+  height: 500px;
+
+  position: fixed;
+  top: 100px;
+}
+footer {
+  padding: 150px 0 0;
+  position: relative;
+  background-color: #fff;
+
+}
+
+footer .wrap-blk p {
+  font-size: 1.5rem;
+  line-height: 2.3;
+  color: #3b3b3b;
+
+}
+
+footer ul {
+  font-size: 2.2rem;
+  line-height: 1.5;
+  color: #3b3b3b;
+  letter-spacing: 0.05em;
+
+}
+
+.copyright {
+  font-size: 1.5rem;
+  color: #3b3b3b;
+  letter-spacing: 0.05em;
+  padding: 30px 0;
+}
+
+footer a {
+  font-size: 2.0rem;
+  color: #3b3b3b;
+  text-align: left;
+
+}
+#about {
+  color: #3b3b3b !important;                                
+  width: 1000px;                                            
+  height:250px; 
+  margin: 0 auto; 
+  transform: translateY(30px);                       
+}
+
+#about h2{
+  margin: 10px 0px 10px
+}
+#about .lead{
+  font-size: 2.0rem;
+  margin: 0 50px 30px
+ 
+}
+#menu .wrap-blk {
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu .wrap-blk .photo {
+  margin: 0 auto;
+}
+
+#menu h1 {
+  color: #3b3b3b;
+  margin: 5 0 80px;
+  text-align: left;
+}
+
+#menu h2 {
+  font-size: 1.8rem;
+  color: #3b3b3b;
+  letter-spacing: 0.05em;
+  margin: 0 0 10px;
+
+}
+
+#menu .item-blk {
+  width: 250px;
+  padding: 100% 10 20px;
+  margin: 0 0 100px;
+  border: 2px solid #f0f0f0;
+  box-sizing: border-box;
+  position: relative;
+  background:url(./sozai/te67.png);
+}
+
+#menu .photo {
+  width: 200px;
+  height: 160px;
+  top: 20%;
+  left: 28%;
+  margin: 0 auto;
+}
+
+/* menuのボックス1つずつの背景 */
+#syasin{
+  background:url(./sozai/te67.png);
+}
+
+#syoumei {
+  background:url(./sozai/te67.png);
+}
+
+#original {
+  background:url(./sozai/te67.png);
+}
+
+#menu ul {
+  margin: 0 0 110px;
+}
+
+#menu .text {
+  font-size: 1.5rem;
+  margin: 50 50 100px;
+}
+
+#menu {
+  margin: 0px;
+  padding: 50px 0 20px;
+}
+
+/* #menu .inner {
+  width: 750px;
+  margin: 0,auto;
+} */
+
+#saiyo {
+  color: #3b3b3b !important;
+  background: url(./sozai/te69.jpg) no-repeat center top / cover;                  
+  background-size:contain;                               
+  width: 1000px;                                            
+  height:250px; 
+  margin: 0 auto;                                       
+}
+#saiyo .photo {
+  width: 400px;
+  height: 300px;
+  transform: translateY(30px);
+}
+#saiyo h1 {
+  letter-spacing: 0.1em;
+  text-align: left;
+  transform: translateY(-50px);
+}
+
+#saiyo .item-blk{
+  transform: translateY(-20px);
+  transform: translateX(80px);
+  margin: 0 auto;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+#saiyo h2{
+  margin: 10px 0px 10px
+}
+#saiyo .lead{
+  font-size: 2.0rem;
+  margin: 0 50px 0
+ 
+}
+#saiyo .btn a {
+  font-size: 1.5rem;
+  line-height: 38px;
+  color: #ea7558;
+  width: 130px;
+  height: 40px;
+  border: 2px solid #ea7558;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 21px;
+}
